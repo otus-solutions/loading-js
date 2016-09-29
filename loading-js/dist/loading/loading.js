@@ -3,8 +3,6 @@
 
     angular
         .module('loading', [
-            'ngMaterial',
-            'ngAnimate',
             'loading.player'
         ]);
 
@@ -41,7 +39,6 @@
         }
 
         function start() {
-            console.log(loadingContainer)
             loadingContainer.show();
         }
 
