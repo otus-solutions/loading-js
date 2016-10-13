@@ -11,6 +11,7 @@
     var uglify = require("gulp-uglify");
     var minifyCss = require('gulp-minify-css');
     var gulpif = require('gulp-if');
+    var bump = require('gulp-bump');
 
 
     gulp.task('compress', function() {
